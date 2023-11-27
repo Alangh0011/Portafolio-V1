@@ -1,13 +1,11 @@
-export default {
+import { defineConfig } from 'vite';
+import ViteReact from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [ViteReact()],
   server: {
     fs: {
       strict: false,
     },
-    mimeTypes: {
-      'text/jsx': ['jsx'],
-    },
   },
-  build: {
-    outDir: 'dist',
-  },
-};
+});
