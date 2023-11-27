@@ -1,11 +1,8 @@
-import { defineConfig } from 'vite';
-import ViteReact from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [ViteReact()],
-  server: {
-    fs: {
-      strict: false,
-    },
-  },
-});
+  plugins: [react()],
+  base: "/alangh0011.github.io/",
+})
