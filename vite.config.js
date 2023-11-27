@@ -7,5 +7,7 @@ export default {
       'text/jsx': ['jsx'],
     },
   },
+  build: {
+    outDir: 'dist',
+  },
 };
-
