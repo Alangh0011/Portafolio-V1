@@ -9,7 +9,7 @@ En mi portafolio web podrás encontrar información sobre mí, mis proyectos, mi
 
 ## ¿Cómo puedes ver mi portafolio?
 
-Puedes ver mi portafolio web en vivo en el siguiente enlace: [alan.com](https://alan.com).
+Puedes ver mi portafolio web en vivo en el siguiente enlace: [alan.com]().
 
 ## ¿Cómo puedes contactarme?
 
